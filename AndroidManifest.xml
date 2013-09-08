@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.alexruperez.alexruperez"
-      android:versionCode="3"
-      android:versionName="1.02">
+      android:versionCode="5"
+      android:versionName="1.04">
     <uses-sdk android:minSdkVersion="10" />
 
     <supports-screens android:resizeable="true"
@@ -18,21 +18,37 @@
         <screen android:screenSize="small" android:screenDensity="mdpi" />
         <screen android:screenSize="small" android:screenDensity="hdpi" />
         <screen android:screenSize="small" android:screenDensity="xhdpi" />
+        <screen android:screenSize="small" android:screenDensity="213" />
+        <screen android:screenSize="small" android:screenDensity="320" />
+        <screen android:screenSize="small" android:screenDensity="480" />
+        <screen android:screenSize="small" android:screenDensity="640" />
         <!-- all normal size screens -->
         <screen android:screenSize="normal" android:screenDensity="ldpi" />
         <screen android:screenSize="normal" android:screenDensity="mdpi" />
         <screen android:screenSize="normal" android:screenDensity="hdpi" />
         <screen android:screenSize="normal" android:screenDensity="xhdpi" />
+        <screen android:screenSize="normal" android:screenDensity="213" />
+        <screen android:screenSize="normal" android:screenDensity="320" />
+        <screen android:screenSize="normal" android:screenDensity="480" />
+        <screen android:screenSize="normal" android:screenDensity="640" />
         <!-- all large size screens -->
         <screen android:screenSize="large" android:screenDensity="ldpi" />
         <screen android:screenSize="large" android:screenDensity="mdpi" />
         <screen android:screenSize="large" android:screenDensity="hdpi" />
         <screen android:screenSize="large" android:screenDensity="xhdpi" />
+        <screen android:screenSize="large" android:screenDensity="213" />
+        <screen android:screenSize="large" android:screenDensity="320" />
+        <screen android:screenSize="large" android:screenDensity="480" />
+        <screen android:screenSize="large" android:screenDensity="640" />
         <!-- all xlarge size screens -->
         <screen android:screenSize="xlarge" android:screenDensity="ldpi" />
         <screen android:screenSize="xlarge" android:screenDensity="mdpi" />
         <screen android:screenSize="xlarge" android:screenDensity="hdpi" />
         <screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
+        <screen android:screenSize="xlarge" android:screenDensity="213" />
+        <screen android:screenSize="xlarge" android:screenDensity="320" />
+        <screen android:screenSize="xlarge" android:screenDensity="480" />
+        <screen android:screenSize="xlarge" android:screenDensity="640" />
     </compatible-screens>
 
     <uses-permission android:name="android.permission.INTERNET"/>
