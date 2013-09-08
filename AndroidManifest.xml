@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.alexruperez.alexruperez"
-      android:versionCode="6"
-      android:versionName="1.05">
-    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="11"/>
+      android:versionCode="7"
+      android:versionName="1.06">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="13"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
 
     <supports-screens android:resizeable="true"
         android:smallScreens="true"
@@ -19,6 +20,7 @@
         <screen android:screenSize="small" android:screenDensity="hdpi" />
         <screen android:screenSize="small" android:screenDensity="xhdpi" />
         <screen android:screenSize="small" android:screenDensity="213" />
+        <screen android:screenSize="small" android:screenDensity="240" />
         <screen android:screenSize="small" android:screenDensity="320" />
         <screen android:screenSize="small" android:screenDensity="480" />
         <screen android:screenSize="small" android:screenDensity="640" />
@@ -28,6 +30,7 @@
         <screen android:screenSize="normal" android:screenDensity="hdpi" />
         <screen android:screenSize="normal" android:screenDensity="xhdpi" />
         <screen android:screenSize="normal" android:screenDensity="213" />
+        <screen android:screenSize="normal" android:screenDensity="240" />
         <screen android:screenSize="normal" android:screenDensity="320" />
         <screen android:screenSize="normal" android:screenDensity="480" />
         <screen android:screenSize="normal" android:screenDensity="640" />
@@ -37,6 +40,7 @@
         <screen android:screenSize="large" android:screenDensity="hdpi" />
         <screen android:screenSize="large" android:screenDensity="xhdpi" />
         <screen android:screenSize="large" android:screenDensity="213" />
+        <screen android:screenSize="large" android:screenDensity="240" />
         <screen android:screenSize="large" android:screenDensity="320" />
         <screen android:screenSize="large" android:screenDensity="480" />
         <screen android:screenSize="large" android:screenDensity="640" />
@@ -46,6 +50,7 @@
         <screen android:screenSize="xlarge" android:screenDensity="hdpi" />
         <screen android:screenSize="xlarge" android:screenDensity="xhdpi" />
         <screen android:screenSize="xlarge" android:screenDensity="213" />
+        <screen android:screenSize="xlarge" android:screenDensity="240" />
         <screen android:screenSize="xlarge" android:screenDensity="320" />
         <screen android:screenSize="xlarge" android:screenDensity="480" />
         <screen android:screenSize="xlarge" android:screenDensity="640" />
