@@ -3,15 +3,15 @@
       package="com.alexruperez.alexruperez"
       android:versionCode="7"
       android:versionName="1.06">
-    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="13"/>
-    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="13" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 
     <supports-screens android:resizeable="true"
         android:smallScreens="true"
         android:normalScreens="true"
         android:largeScreens="true"
         android:xlargeScreens="true"
-        android:anyDensity="true"/>
+        android:anyDensity="true" />
 
     <compatible-screens>
         <!-- all small size screens -->
@@ -56,7 +56,10 @@
         <screen android:screenSize="xlarge" android:screenDensity="640" />
     </compatible-screens>
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
         <activity android:name="com.alexruperez.alexruperez.AlexruperezActivity"

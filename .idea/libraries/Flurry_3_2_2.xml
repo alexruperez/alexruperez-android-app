@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Flurry_3.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/Flurry_3.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
