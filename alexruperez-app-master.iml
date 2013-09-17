@@ -17,7 +17,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Flurry_3.2.2" level="project" />
     <orderEntry type="library" name="libGoogleAnalyticsServices" level="project" />
-    <orderEntry type="library" name="newrelic.android" level="project" />
   </component>
 </module>
 

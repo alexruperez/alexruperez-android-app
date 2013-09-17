@@ -10,7 +10,6 @@ import android.view.KeyEvent;
 
 import com.google.analytics.tracking.android.EasyTracker;
 import com.flurry.android.FlurryAgent;
-import com.newrelic.agent.android.NewRelic;
 
 public class AlexruperezActivity extends Activity {
     /** Called when the activity is first created. */
@@ -20,10 +19,6 @@ public class AlexruperezActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
-        NewRelic.withApplicationToken(
-                "AA83eb89f2f9a77a36d594773815891924ee9b6ab1"
-        ).start(this.getApplication());
 
         mainWebView = (WebView) findViewById(R.id.mainWebView);
 
